@@ -21,7 +21,7 @@ function addTask(descr) {
     lblTask.setAttribute('for', descr);
     lblTask.appendChild(descTaskNode);
 
-    taskContainer.classList.add('item');
+    taskContainer.classList.add('task-item');
     taskContainer.appendChild(inpTask);
     taskContainer.appendChild(lblTask);
 
